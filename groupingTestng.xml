@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+    <groups>
+        <run>
+            <!-- <include name="Master"/>-->
+            <!--<include name="Sanity"/>-->
+            <!--<include name="DataDriven"/>-->
+            <include name="EndToEnd"/>
+            <!-- <exclude name="" /> -->
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="SauceDemoTest">
+        <classes>
+            <class name="tests.LogInTest"/>
+            <class name="tests.InventoryTest"/>
+            <class name="tests.InventoryItemTest"/>
+            <class name="tests.CartTest"/>
+            <class name="tests.FilterTest"/>
+            <class name="tests.CheckoutOnePageTest"/>
+            <class name="tests.CheckoutTwoPageTest"/>
+            <class name="tests.CheckOutCompleteTest"/>
+            <class name="tests.InventoryDataDrivenTest"/>
+            <class name="e2e.EndToEndTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,39 @@
+2025-03-21 19:07:27 INFO  EndToEndTest:22 - Logging in as 'standard_user'
+2025-03-21 19:07:28 INFO  EndToEndTest:26 - Login successful
+2025-03-21 19:07:28 INFO  EndToEndTest:28 - Adding item to cart: Sauce Labs Bolt T-Shirt
+2025-03-21 19:07:28 INFO  EndToEndTest:35 - Item added to cart successfully: Sauce Labs Bolt T-Shirt
+2025-03-21 19:07:28 INFO  EndToEndTest:37 - Opening page for item: Sauce Labs Bike Light
+2025-03-21 19:07:29 INFO  EndToEndTest:43 - Adding item to cart: Sauce Labs Bike Light
+2025-03-21 19:07:29 INFO  EndToEndTest:48 - Returned to product listing page
+2025-03-21 19:07:29 INFO  EndToEndTest:50 - Removing item from cart: Sauce Labs Bolt T-Shirt
+2025-03-21 19:07:30 INFO  EndToEndTest:55 - Adding item to cart: Sauce Labs Fleece Jacket
+2025-03-21 19:07:30 INFO  EndToEndTest:60 - Reviewing cart contents
+2025-03-21 19:07:31 INFO  EndToEndTest:71 - Cart contents verified
+2025-03-21 19:07:31 INFO  EndToEndTest:73 - Initiating checkout with valid data
+2025-03-21 19:07:32 INFO  EndToEndTest:86 - Checkout completed successfully
+2025-03-21 22:55:28 INFO  EndToEndTest:22 - Logging in as 'standard_user'
+2025-03-21 22:55:29 INFO  EndToEndTest:26 - Login successful
+2025-03-21 22:55:29 INFO  EndToEndTest:28 - Adding item to cart: Sauce Labs Bolt T-Shirt
+2025-03-21 22:55:29 INFO  EndToEndTest:35 - Item added to cart successfully: Sauce Labs Bolt T-Shirt
+2025-03-21 22:55:29 INFO  EndToEndTest:37 - Opening page for item: Sauce Labs Bike Light
+2025-03-21 22:55:30 INFO  EndToEndTest:43 - Adding item to cart: Sauce Labs Bike Light
+2025-03-21 22:55:30 INFO  EndToEndTest:48 - Returned to product listing page
+2025-03-21 22:55:30 INFO  EndToEndTest:50 - Removing item from cart: Sauce Labs Bolt T-Shirt
+2025-03-21 22:55:30 INFO  EndToEndTest:55 - Adding item to cart: Sauce Labs Fleece Jacket
+2025-03-21 22:55:31 INFO  EndToEndTest:60 - Reviewing cart contents
+2025-03-21 22:55:31 INFO  EndToEndTest:71 - Cart contents verified
+2025-03-21 22:55:31 INFO  EndToEndTest:73 - Initiating checkout with valid data
+2025-03-21 22:55:33 INFO  EndToEndTest:86 - Checkout completed successfully
+2025-03-21 23:00:55 INFO  EndToEndTest:22 - Logging in as 'standard_user'
+2025-03-21 23:00:56 INFO  EndToEndTest:26 - Login successful
+2025-03-21 23:00:56 INFO  EndToEndTest:28 - Adding item to cart: Sauce Labs Bolt T-Shirt
+2025-03-21 23:00:56 INFO  EndToEndTest:35 - Item added to cart successfully: Sauce Labs Bolt T-Shirt
+2025-03-21 23:00:56 INFO  EndToEndTest:37 - Opening page for item: Sauce Labs Bike Light
+2025-03-21 23:00:57 INFO  EndToEndTest:43 - Adding item to cart: Sauce Labs Bike Light
+2025-03-21 23:00:57 INFO  EndToEndTest:48 - Returned to product listing page
+2025-03-21 23:00:57 INFO  EndToEndTest:50 - Removing item from cart: Sauce Labs Bolt T-Shirt
+2025-03-21 23:00:57 INFO  EndToEndTest:55 - Adding item to cart: Sauce Labs Fleece Jacket
+2025-03-21 23:00:58 INFO  EndToEndTest:60 - Reviewing cart contents
+2025-03-21 23:00:58 INFO  EndToEndTest:71 - Cart contents verified
+2025-03-21 23:00:58 INFO  EndToEndTest:73 - Initiating checkout with valid data
+2025-03-21 23:01:00 INFO  EndToEndTest:86 - Checkout completed successfully

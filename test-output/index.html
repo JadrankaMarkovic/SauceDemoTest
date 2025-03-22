@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Master_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Master Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Master_Suite" class="navigator-link ">
+                    <span>E:\projects\SauceDemoTest\masterTestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Master_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Master_Suite" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Master_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Master_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Master_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Master_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods, 1 failed,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods failed suite-Master_Suite"> (hide)</a> <!-- hide-methods failed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods failed suite-Master_Suite"> (show)</a> <!-- show-methods failed suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Master_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryTest" class="method navigator-link" hash-for-method="testAddAndRemoveOneItem">testAddAndRemoveOneItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Master_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods passed suite-Master_Suite"> (hide)</a> <!-- hide-methods passed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods passed suite-Master_Suite"> (show)</a> <!-- show-methods passed suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Master_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testAddAllItemsToCart(3, Sauce Labs Fleece Jacket, It&#039;s not every day that you come across a midweight quarter-zip fleece ...)">testAddAllItemsToCart(3, Sauce Labs Fleece Jacket, It's not every day that you come across a midweight quarter-zip fleece ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testAddAllItemsToCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)">testAddAllItemsToCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testAddAllItemsToCart(1, Sauce Labs Bike Light, A red light isn&#039;t the desired state in testing but it sure helps when ridi...)">testAddAllItemsToCart(1, Sauce Labs Bike Light, A red light isn't the desired state in testing but it sure helps when ridi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testAddAllItemsToCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)">testAddAllItemsToCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testAddAllItemsToCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)">testAddAllItemsToCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testAddAllItemsToCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)">testAddAllItemsToCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryItemTest" class="method navigator-link" hash-for-method="testAddFirstItemAndOpenSecondItemPage">testAddFirstItemAndOpenSecondItemPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryTest" class="method navigator-link" hash-for-method="testAddNotExistingItem">testAddNotExistingItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryTest" class="method navigator-link" hash-for-method="testAddTwoAndRemoveOneItem">testAddTwoAndRemoveOneItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="testCartWithThreeItems">testCartWithThreeItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="testCartWithTwoItems">testCartWithTwoItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.CheckOutCompleteTest" class="method navigator-link" hash-for-method="testCheckoutComplete">testCheckoutComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.CheckoutOnePageTest" class="method navigator-link" hash-for-method="testCheckoutPage">testCheckoutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.CheckoutTwoPageTest" class="method navigator-link" hash-for-method="testCheckoutTwoPage">testCheckoutTwoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.CheckoutTwoPageTest" class="method navigator-link" hash-for-method="testCheckoutTwoPageAndAddOneItem">testCheckoutTwoPageAndAddOneItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="e2e.EndToEndTest" class="method navigator-link" hash-for-method="testEndToEnd">testEndToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.FilterTest" class="method navigator-link" hash-for-method="testFilterByNameDescending">testFilterByNameDescending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.FilterTest" class="method navigator-link" hash-for-method="testFilterByPriceAscending">testFilterByPriceAscending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.FilterTest" class="method navigator-link" hash-for-method="testFilterByPriceDescending">testFilterByPriceDescending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.FilterTest" class="method navigator-link" hash-for-method="testFilterOptions">testFilterOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.LogInTest" class="method navigator-link" hash-for-method="testLogInSuccessful">testLogInSuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.LogInTest" class="method navigator-link" hash-for-method="testLogInWithWrongUserName">testLogInWithWrongUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryItemTest" class="method navigator-link" hash-for-method="testOpenOneItemPage">testOpenOneItemPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testRemoveAllItemsFromCart(3, Sauce Labs Fleece Jacket, It&#039;s not every day that you come across a midweight quarter-zip fleece ...)">testRemoveAllItemsFromCart(3, Sauce Labs Fleece Jacket, It's not every day that you come across a midweight quarter-zip fleece ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testRemoveAllItemsFromCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)">testRemoveAllItemsFromCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testRemoveAllItemsFromCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)">testRemoveAllItemsFromCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testRemoveAllItemsFromCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)">testRemoveAllItemsFromCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testRemoveAllItemsFromCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)">testRemoveAllItemsFromCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.InventoryDataDrivenTest" class="method navigator-link" hash-for-method="testRemoveAllItemsFromCart(1, Sauce Labs Bike Light, A red light isn&#039;t the desired state in testing but it sure helps when ridi...)">testRemoveAllItemsFromCart(1, Sauce Labs Bike Light, A red light isn't the desired state in testing but it sure helps when ridi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="tests.FilterTest" class="method navigator-link" hash-for-method="testSelectedOption">testSelectedOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Master_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Master_Suite" class="panel Master_Suite">
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.InventoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAndRemoveOneItem">
+                  </a> <!-- testAddAndRemoveOneItem -->
+                  <span class="method-name">testAddAndRemoveOneItem</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed: Expected 0 items in the cart, but found a different number. expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at tests.InventoryTest.testAddAndRemoveOneItem(InventoryTest.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutOnePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutPage">
+                  </a> <!-- testCheckoutPage -->
+                  <span class="method-name">testCheckoutPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.InventoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNotExistingItem">
+                  </a> <!-- testAddNotExistingItem -->
+                  <span class="method-name">testAddNotExistingItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddTwoAndRemoveOneItem">
+                  </a> <!-- testAddTwoAndRemoveOneItem -->
+                  <span class="method-name">testAddTwoAndRemoveOneItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByNameDescending">
+                  </a> <!-- testFilterByNameDescending -->
+                  <span class="method-name">testFilterByNameDescending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByPriceAscending">
+                  </a> <!-- testFilterByPriceAscending -->
+                  <span class="method-name">testFilterByPriceAscending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterByPriceDescending">
+                  </a> <!-- testFilterByPriceDescending -->
+                  <span class="method-name">testFilterByPriceDescending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterOptions">
+                  </a> <!-- testFilterOptions -->
+                  <span class="method-name">testFilterOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectedOption">
+                  </a> <!-- testSelectedOption -->
+                  <span class="method-name">testSelectedOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.InventoryItemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddFirstItemAndOpenSecondItemPage">
+                  </a> <!-- testAddFirstItemAndOpenSecondItemPage -->
+                  <span class="method-name">testAddFirstItemAndOpenSecondItemPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenOneItemPage">
+                  </a> <!-- testOpenOneItemPage -->
+                  <span class="method-name">testOpenOneItemPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutTwoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutTwoPage">
+                  </a> <!-- testCheckoutTwoPage -->
+                  <span class="method-name">testCheckoutTwoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutTwoPageAndAddOneItem">
+                  </a> <!-- testCheckoutTwoPageAndAddOneItem -->
+                  <span class="method-name">testCheckoutTwoPageAndAddOneItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartWithThreeItems">
+                  </a> <!-- testCartWithThreeItems -->
+                  <span class="method-name">testCartWithThreeItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartWithTwoItems">
+                  </a> <!-- testCartWithTwoItems -->
+                  <span class="method-name">testCartWithTwoItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.InventoryDataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAllItemsToCart(3, Sauce Labs Fleece Jacket, It&#039;s not every day that you come across a midweight quarter-zip fleece ...)">
+                  </a> <!-- testAddAllItemsToCart(3, Sauce Labs Fleece Jacket, It's not every day that you come across a midweight quarter-zip fleece ...) -->
+                  <span class="method-name">testAddAllItemsToCart</span>
+                  <span class="parameters">(3,Sauce Labs Fleece Jacket,It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.,49.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAllItemsToCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)">
+                  </a> <!-- testAddAllItemsToCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...) -->
+                  <span class="method-name">testAddAllItemsToCart</span>
+                  <span class="parameters">(0,Sauce Labs Backpack,carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.,29.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAllItemsToCart(1, Sauce Labs Bike Light, A red light isn&#039;t the desired state in testing but it sure helps when ridi...)">
+                  </a> <!-- testAddAllItemsToCart(1, Sauce Labs Bike Light, A red light isn't the desired state in testing but it sure helps when ridi...) -->
+                  <span class="method-name">testAddAllItemsToCart</span>
+                  <span class="parameters">(1,Sauce Labs Bike Light,A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.,9.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAllItemsToCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)">
+                  </a> <!-- testAddAllItemsToCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...) -->
+                  <span class="method-name">testAddAllItemsToCart</span>
+                  <span class="parameters">(5,Test.allTheThings() T-Shirt (Red),This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.,15.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAllItemsToCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)">
+                  </a> <!-- testAddAllItemsToCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...) -->
+                  <span class="method-name">testAddAllItemsToCart</span>
+                  <span class="parameters">(2,Sauce Labs Bolt T-Shirt,Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.,15.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAllItemsToCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)">
+                  </a> <!-- testAddAllItemsToCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...) -->
+                  <span class="method-name">testAddAllItemsToCart</span>
+                  <span class="parameters">(4,Sauce Labs Onesie,Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.,7.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveAllItemsFromCart(3, Sauce Labs Fleece Jacket, It&#039;s not every day that you come across a midweight quarter-zip fleece ...)">
+                  </a> <!-- testRemoveAllItemsFromCart(3, Sauce Labs Fleece Jacket, It's not every day that you come across a midweight quarter-zip fleece ...) -->
+                  <span class="method-name">testRemoveAllItemsFromCart</span>
+                  <span class="parameters">(3,Sauce Labs Fleece Jacket,It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.,49.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveAllItemsFromCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)">
+                  </a> <!-- testRemoveAllItemsFromCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...) -->
+                  <span class="method-name">testRemoveAllItemsFromCart</span>
+                  <span class="parameters">(5,Test.allTheThings() T-Shirt (Red),This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.,15.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveAllItemsFromCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)">
+                  </a> <!-- testRemoveAllItemsFromCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...) -->
+                  <span class="method-name">testRemoveAllItemsFromCart</span>
+                  <span class="parameters">(2,Sauce Labs Bolt T-Shirt,Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.,15.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveAllItemsFromCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)">
+                  </a> <!-- testRemoveAllItemsFromCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...) -->
+                  <span class="method-name">testRemoveAllItemsFromCart</span>
+                  <span class="parameters">(0,Sauce Labs Backpack,carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.,29.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveAllItemsFromCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)">
+                  </a> <!-- testRemoveAllItemsFromCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...) -->
+                  <span class="method-name">testRemoveAllItemsFromCart</span>
+                  <span class="parameters">(4,Sauce Labs Onesie,Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.,7.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveAllItemsFromCart(1, Sauce Labs Bike Light, A red light isn&#039;t the desired state in testing but it sure helps when ridi...)">
+                  </a> <!-- testRemoveAllItemsFromCart(1, Sauce Labs Bike Light, A red light isn't the desired state in testing but it sure helps when ridi...) -->
+                  <span class="method-name">testRemoveAllItemsFromCart</span>
+                  <span class="parameters">(1,Sauce Labs Bike Light,A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.,9.99)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">e2e.EndToEndTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEndToEnd">
+                  </a> <!-- testEndToEnd -->
+                  <span class="method-name">testEndToEnd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckOutCompleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutComplete">
+                  </a> <!-- testCheckoutComplete -->
+                  <span class="method-name">testCheckoutComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LogInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogInSuccessful">
+                  </a> <!-- testLogInSuccessful -->
+                  <span class="method-name">testLogInSuccessful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogInWithWrongUserName">
+                  </a> <!-- testLogInWithWrongUserName -->
+                  <span class="method-name">testLogInWithWrongUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+        </div> <!-- panel Master_Suite -->
+        <div panel-name="test-xml-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\projects\SauceDemoTest\masterTestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Master Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SauceDemoTest&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LogInTest&quot;/&gt;
+      &lt;class name=&quot;tests.InventoryTest&quot;/&gt;
+      &lt;class name=&quot;tests.InventoryItemTest&quot;/&gt;
+      &lt;class name=&quot;tests.CartTest&quot;/&gt;
+      &lt;class name=&quot;tests.FilterTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckoutOnePageTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckoutTwoPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckOutCompleteTest&quot;/&gt;
+      &lt;class name=&quot;tests.InventoryDataDrivenTest&quot;/&gt;
+      &lt;class name=&quot;e2e.EndToEndTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SauceDemoTest --&gt;
+&lt;/suite&gt; &lt;!-- Master Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SauceDemoTest (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">DataDriven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddAllItemsToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRemoveAllItemsFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">EndToEnd</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEndToEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Master</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddAllItemsToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddAndRemoveOneItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddFirstItemAndOpenSecondItemPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddNotExistingItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddTwoAndRemoveOneItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCartWithThreeItems</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCartWithTwoItems</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutComplete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutTwoPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutTwoPageAndAddOneItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEndToEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterByNameDescending</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterByPriceAscending</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterByPriceDescending</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterOptions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogInSuccessful</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogInWithWrongUserName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testOpenOneItemPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRemoveAllItemsFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSelectedOption</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddAndRemoveOneItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddFirstItemAndOpenSecondItemPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddNotExistingItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddTwoAndRemoveOneItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCartWithThreeItems</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCartWithTwoItems</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutComplete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutTwoPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutTwoPageAndAddOneItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterByNameDescending</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterByPriceAscending</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterByPriceDescending</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterOptions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogInSuccessful</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogInWithWrongUserName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testOpenOneItemPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSelectedOption</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Master_Suite');
+function tableData_Master_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testEndToEnd')
+data.setCell(0, 2, 'e2e.EndToEndTest')
+data.setCell(0, 3, 4961);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCartWithTwoItems')
+data.setCell(1, 2, 'tests.CartTest')
+data.setCell(1, 3, 1866);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCheckoutTwoPageAndAddOneItem')
+data.setCell(2, 2, 'tests.CheckoutTwoPageTest')
+data.setCell(2, 3, 1826);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCartWithThreeItems')
+data.setCell(3, 2, 'tests.CartTest')
+data.setCell(3, 3, 1769);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAddTwoAndRemoveOneItem')
+data.setCell(4, 2, 'tests.InventoryTest')
+data.setCell(4, 3, 1695);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCheckoutPage')
+data.setCell(5, 2, 'tests.CheckoutOnePageTest')
+data.setCell(5, 3, 1566);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testOpenOneItemPage')
+data.setCell(6, 2, 'tests.InventoryItemTest')
+data.setCell(6, 3, 1260);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAddAndRemoveOneItem')
+data.setCell(7, 2, 'tests.InventoryTest')
+data.setCell(7, 3, 1159);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAddAllItemsToCart')
+data.setCell(8, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(8, 3, 1080);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAddFirstItemAndOpenSecondItemPage')
+data.setCell(9, 2, 'tests.InventoryItemTest')
+data.setCell(9, 3, 1048);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRemoveAllItemsFromCart')
+data.setCell(10, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(10, 3, 1037);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAddAllItemsToCart')
+data.setCell(11, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(11, 3, 955);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLogInSuccessful')
+data.setCell(12, 2, 'tests.LogInTest')
+data.setCell(12, 3, 895);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testAddAllItemsToCart')
+data.setCell(13, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(13, 3, 892);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testAddAllItemsToCart')
+data.setCell(14, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(14, 3, 887);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testAddAllItemsToCart')
+data.setCell(15, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(15, 3, 870);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testRemoveAllItemsFromCart')
+data.setCell(16, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(16, 3, 811);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testAddAllItemsToCart')
+data.setCell(17, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(17, 3, 769);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLogInWithWrongUserName')
+data.setCell(18, 2, 'tests.LogInTest')
+data.setCell(18, 3, 617);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testRemoveAllItemsFromCart')
+data.setCell(19, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(19, 3, 591);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCheckoutTwoPage')
+data.setCell(20, 2, 'tests.CheckoutTwoPageTest')
+data.setCell(20, 3, 585);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testRemoveAllItemsFromCart')
+data.setCell(21, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(21, 3, 473);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testFilterByPriceAscending')
+data.setCell(22, 2, 'tests.FilterTest')
+data.setCell(22, 3, 455);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testRemoveAllItemsFromCart')
+data.setCell(23, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(23, 3, 454);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testFilterByNameDescending')
+data.setCell(24, 2, 'tests.FilterTest')
+data.setCell(24, 3, 444);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testRemoveAllItemsFromCart')
+data.setCell(25, 2, 'tests.InventoryDataDrivenTest')
+data.setCell(25, 3, 424);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testFilterByPriceDescending')
+data.setCell(26, 2, 'tests.FilterTest')
+data.setCell(26, 3, 411);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testSelectedOption')
+data.setCell(27, 2, 'tests.FilterTest')
+data.setCell(27, 3, 357);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCheckoutComplete')
+data.setCell(28, 2, 'tests.CheckOutCompleteTest')
+data.setCell(28, 3, 266);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testFilterOptions')
+data.setCell(29, 2, 'tests.FilterTest')
+data.setCell(29, 3, 195);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testAddNotExistingItem')
+data.setCell(30, 2, 'tests.InventoryTest')
+data.setCell(30, 3, 189);
+window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-Master_Suite">
+              </div> <!-- times-div-Master_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Master Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Master_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToLoginPage</span>
+                <span class="method-start">6194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogInSuccessful</span>
+                <span class="method-start">6373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToLoginPage</span>
+                <span class="method-start">7373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogInWithWrongUserName</span>
+                <span class="method-start">7536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8155 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.InventoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8622 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">12950 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddAndRemoveOneItem</span>
+                <span class="method-start">13916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddNotExistingItem</span>
+                <span class="method-start">15397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddTwoAndRemoveOneItem</span>
+                <span class="method-start">15588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17285 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.InventoryItemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18273 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">22326 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testOpenOneItemPage</span>
+                <span class="method-start">23128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddFirstItemAndOpenSecondItemPage</span>
+                <span class="method-start">24390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25439 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25883 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">30609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCartWithTwoItems</span>
+                <span class="method-start">31415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCartWithThreeItems</span>
+                <span class="method-start">33283 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35053 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35482 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">40080 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFilterByNameDescending</span>
+                <span class="method-start">41429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFilterByPriceAscending</span>
+                <span class="method-start">41874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFilterByPriceDescending</span>
+                <span class="method-start">42331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFilterOptions</span>
+                <span class="method-start">42744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectedOption</span>
+                <span class="method-start">42941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43299 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutOnePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">47619 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutPage</span>
+                <span class="method-start">49219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50786 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutTwoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">51281 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">54980 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutTwoPage</span>
+                <span class="method-start">57577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutTwoPageAndAddOneItem</span>
+                <span class="method-start">58164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59992 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckOutCompleteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60447 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">64016 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutComplete</span>
+                <span class="method-start">66539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66806 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.InventoryDataDrivenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67360 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">logInPage</span>
+                <span class="method-start">71142 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddAllItemsToCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)</span>
+                <span class="method-start">72061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddAllItemsToCart(1, Sauce Labs Bike Light, A red light isn't the desired state in testing but it sure helps when ridi...)</span>
+                <span class="method-start">73017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddAllItemsToCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)</span>
+                <span class="method-start">73787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddAllItemsToCart(3, Sauce Labs Fleece Jacket, It's not every day that you come across a midweight quarter-zip fleece ...)</span>
+                <span class="method-start">74870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddAllItemsToCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)</span>
+                <span class="method-start">75741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddAllItemsToCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)</span>
+                <span class="method-start">76634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveAllItemsFromCart(0, Sauce Labs Backpack, carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompr...)</span>
+                <span class="method-start">77526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveAllItemsFromCart(1, Sauce Labs Bike Light, A red light isn't the desired state in testing but it sure helps when ridi...)</span>
+                <span class="method-start">77951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveAllItemsFromCart(2, Sauce Labs Bolt T-Shirt, Get your testing superhero on with the Sauce Labs bolt T-shirt. From Ame...)</span>
+                <span class="method-start">78425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveAllItemsFromCart(3, Sauce Labs Fleece Jacket, It's not every day that you come across a midweight quarter-zip fleece ...)</span>
+                <span class="method-start">78880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveAllItemsFromCart(4, Sauce Labs Onesie, Rib snap infant onesie for the junior automation engineer in development. Rein...)</span>
+                <span class="method-start">79472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveAllItemsFromCart(5, Test.allTheThings() T-Shirt (Red), This classic Sauce Labs t-shirt is perfect to wear when cozyin...)</span>
+                <span class="method-start">80285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81323 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">e2e.EndToEndTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83450 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEndToEnd</span>
+                <span class="method-start">86892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91854 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
