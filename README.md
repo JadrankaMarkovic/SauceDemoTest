@@ -33,7 +33,7 @@ The structure is designed to keep tests and page logic separate, making it easie
 - **src/test/resources/cucumberFeatures**: Contains Gherkin feature files for Cucumber.
   - **AddToCart.feature**: Scenario for adding items to the cart.
   - **EndToEnd.feature**: Full end-to-end feature for testing the entire purchase process.
-  - **LogIn.feature**: Scenario for logging in.
+  - **LogIn.feature**: Scenario for logging in. 
 
 - **src/test/java/cucumber**: Contains Cucumber-related files.
   - **factory**: Handles WebDriver initialization for Cucumber tests.
